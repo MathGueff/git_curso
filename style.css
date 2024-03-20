@@ -1,8 +1,53 @@
 body{
-    background-color: brown;
+    background-color: rgb(201, 195, 195);
 }
 
 input[type="submit"]{
-    color: green;
-    border: 3px solid white;
+    color: rgb(47, 92, 175);
+    background-color: antiquewhite;
+    border: 3px solid rgb(99, 104, 119);
+}
+
+input[type="reset"]{
+    color: rgb(175, 56, 47);
+    background-color: antiquewhite;
+    border: 3px solid rgb(99, 104, 119);
+}
+
+input[type="text"],[type="password"], [type="date"]{
+    color: rgb(0, 0, 0);
+    background-color: rgb(129, 163, 161);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 6px;
+    width: 220px;
+}
+
+form{
+    border: 5px solid rgb(158, 136, 136);
+    background-color: azure;
+    margin: 20px 50px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input{
+   width: 50%;
+   margin: 5px 25px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    background-color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    margin-left: 110px;
 }
