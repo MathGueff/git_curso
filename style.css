@@ -1,3 +1,8 @@
 body{
     background-color: brown;
 }
+
+input[type="submit"]{
+    color: green;
+    border: 3px solid white;
+}
